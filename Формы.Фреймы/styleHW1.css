@@ -1,0 +1,82 @@
+body{
+	background: #f08686;
+
+}
+.entrance{
+	width: 400px;
+	height: 350px;
+	background: #e5d8d8;
+	margin: 50px auto;
+	box-shadow: 4px 3px 8px 8px rgb(0 0 0 / 30%);
+	box-shadow:  0px 0px 6px 3px rgb(255 255 255 / 87%), 4px 3px 8px 8px rgb(0 0 0 / 20%);
+	font-family: sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+h1{
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 70%);
+    color: #4a4a4a;
+}
+input[type="text"], [type="password"]{
+	width: 330px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	border: 0px;
+	margin: 15px;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: #e5d8d8;
+}
+input[type="password"]::-webkit-input-placeholder {
+    color: #e5d8d8;
+}
+.entrance button[type="sumbit"]{
+	width: 330px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	border: 0px;
+	margin: 15px;
+	background: #5ead87;
+	box-shadow: 0px 0px 1px 2px rgb(94 173 135 / 57%), 2px 2px 8px 3px rgb(0 0 0 / 20%);
+	color: #fff;
+	text-shadow: 1px 1px 15px rgb(225 225 225 / 70%);
+}
+a{ 
+	display: block;
+	padding-top: 30px;
+	color: #de7c7c;
+	font-weight: bold;
+}
+.accounts{
+	width: 400px;
+	margin: 30px auto;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	font-family: sans-serif;
+}
+.accounts button[type="sumbit"]{
+	background: #6daeb3;
+	width: 180px;
+	height: 40px;
+	font-size: 17px;
+	text-align: center;
+	border: 0px;
+	color: #fff;
+	box-shadow: 2px 2px 8px 3px rgb(0 0 0 / 30%);
+}
+img{
+	width: 17px;
+	height: 17px;
+	z-index: 10;
+	padding: 0 5px;
+}
+.accounts button[type="sumbit"]:nth-child(2n){
+	background: #536a99;
+	margin-right: 20px;
+
+}

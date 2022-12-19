@@ -1,0 +1,55 @@
+.fon{
+	background: black;
+	width: 540px;
+	margin: 50px auto;
+}
+.block {
+	width: 540px;
+	height: 186px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	background: white;
+}
+.blockText {
+	width: 50%;
+	position: relative;
+	display: block;
+	text-align: center;	
+	order: 2;
+	overflow: hidden;
+}
+.blockImgFirst {
+	width: 50%;
+	height: 186px;
+	width: 270px;
+    position: relative;
+	display: block;
+    order: 1;
+    overflow: hidden; 
+}
+.blockImgSecond {
+	width: 50%;
+	height: 186px;
+	width: 270px;
+	position: relative;
+	order: 3;
+	overflow: hidden;
+}
+.blockImgThird {
+	width: 50%;
+	height: 186px;
+	width: 270px;
+	position: relative;
+	order: 1;
+	overflow: hidden;
+}
+.block:hover {
+    opacity: 0.5;
+    transition:opacity 0.3s;
+}
+.block:hover img {
+	transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+    transition: transform 1s;
+}

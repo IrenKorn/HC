@@ -1,0 +1,53 @@
+header .row{
+	background: #4d56ab;
+}
+svg{
+	color: #fff;
+}
+main section:nth-child(1) ul{
+	list-style-type: none;
+}
+main section:nth-child(1) li:after{
+  content: "\2B24";
+}
+main section:nth-child(1) li:nth-child(1):after{
+  color: #edebeb;
+}
+main section:nth-child(1) li:nth-child(2):after{
+  color: #91e5b8;
+}
+main section:nth-child(1) li:nth-child(3):after{
+  color: #8ed9de;
+}
+main section:nth-child(1) li:nth-child(4):after{
+  color: #e597af;
+}
+main section:nth-child(2) .col-4:nth-child(1) .box{
+	background: #edebeb;
+}
+main section:nth-child(2) .col-4:nth-child(1) .box button{
+	background: #dbdbdb;
+	border-color: #ced4da;
+}
+main section:nth-child(2) .col-4:nth-child(1n+2) .box{
+	background: #8ed9de;
+}
+main section:nth-child(3) .col-4:nth-child(1n+1) .box{
+	background: #e597af;
+}
+main section:nth-child(3) .col-4:nth-child(1n+1) .box button{
+	background: #dbdbdb;
+	border-color: #ced4da;
+}
+main section:nth-child(3) .col-4:nth-child(1n+3) .box{
+	background: #91e5b8;
+}
+main section:nth-child(3) .col-4:nth-child(1n+3) .box button{
+	background: none;
+	border-color: #f8f9fa;
+}
+.badge{
+	top: 15px;
+	right: 15px;
+	background-color: #72c498;
+}

@@ -1,0 +1,67 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: 0;
+  height: 100%;
+  background: #969696;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+li {
+  position: relative;
+  height: 70px;
+}
+img{
+  width: 60px;
+  height: 60px;
+  transition: all 1s;
+
+}
+.menuIcon{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  float: left;
+}
+li:hover {
+  background: grey;
+}
+a{
+  display: block;
+  position: absolute;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font: caption;
+  margin: 20px;
+}
+li:nth-child(1n) a{
+  margin: 20px 10px;
+}
+.menuName{
+  float: left;
+  display: block;
+  transform: matrix(0, 0, 0, 0, 0, 0);
+  width: 0;
+  height: 0;
+  transition: all 1s;
+}
+ul:hover .menuName{
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 150px;
+  height: 70px;
+  transition: all 1s;
+}
+ul:hover img{
+  transform: rotate(360deg);
+  transition: all 1s;
+
+}
+ .text {
+  position: absolute;
+  padding: 50px 50px 50px 150px;
+  text-transform: uppercase;
+  font-size: large;
+ }

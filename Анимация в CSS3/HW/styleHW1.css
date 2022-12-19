@@ -1,0 +1,99 @@
+.watch {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	color: green;
+	border: 2px solid green;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background: rgba(43,60,44, 0.5);
+}
+.watch::before {
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: green;
+	top: 144px;
+	left: 142px;
+	z-index: 1;
+}
+.watchMinute {
+	position: absolute;
+	width: 110px;
+	height: 4px;
+	background: green;
+	top: 150px;
+	left: 150px;
+	animation: minuteStep;
+	animation-duration: 3600s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+    @keyframes minuteStep {
+    	0% { transform-origin: 0 100%;
+    	transform: rotate(90deg); }
+    	100% { transform-origin: 0 100%;
+    	transform: rotate(450deg); }
+    }
+
+.watchSecond {
+	position: absolute;
+	width: 145px;
+	height: 4px;
+	background: green;
+	top: 150px;
+	left: 150px;
+	animation: secondStep;
+	animation-duration: 60s;
+    animation-timing-function: steps(60, end);
+    animation-iteration-count: infinite;
+}
+    @keyframes secondStep {
+    0%   { transform-origin: 0 100%;
+	transform: rotate(-90deg); }
+    100% { transform-origin: 0 100%;
+	transform: rotate(270deg); }
+}
+   
+.watchHorse {
+	position: absolute;
+	width: 80px;
+	height: 4px;
+	background: #314239;
+	top: 150px;
+	left: 150px;
+	animation: horseStep;
+	animation-duration: 43200s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.watchHorse::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-left: 20px solid #314239;
+	border-bottom: 7px solid transparent;
+	top: -5px;
+	left: 66px;
+
+}
+    @keyframes horseStep {
+    0%   { transform-origin: 0 100%;
+	transform: rotate(140deg); }
+    100% { transform-origin: 0 100%;
+	transform: rotate(500deg); }
+
+} 
+img {
+	transform: matrix(0.36, 0, 0, 0.36, 0, 0);
+	position: relative;
+	top: -283px;
+	left: -283px;
+	opacity: 0.5;
+}
+

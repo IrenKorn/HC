@@ -1,0 +1,28 @@
+table {
+	width: 600px;
+	border-collapse: collapse;
+	text-align: center;
+	position: relative;
+}
+th {
+	width: 20px;
+	padding: 10px 10px;
+	background: skyblue;
+	position: sticky;
+}
+td {
+	width: 20px;
+	padding: 10px 10px;
+}
+
+thead th {
+	position: sticky;
+	top: 0;
+}
+tbody th {
+	position: sticky;
+	left: 0;
+}
+tr:nth-child(even){
+	background: #d6d6d6;
+}

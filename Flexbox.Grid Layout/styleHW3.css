@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #44bdbd;
+}
+header{
+	width: 100vw;
+	background: #369999;
+	color: white;
+	position: fixed;
+	vertical-align: middle;
+	padding: 22.5px;
+}
+main{
+	display: flex;
+	flex-wrap: nowrap;
+	padding-top: 60px;
+}
+.board{
+	min-width: 300px;
+	max-width: 400px;
+	height: 79vh;
+	background: #d9d9d9;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 20px;
+	overflow: auto;
+}
+h3{
+	margin: 0;
+}
+.iteam{
+	width: 100%;
+	height: auto;
+	margin: 15px 0;
+	background: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+img{
+	width: 15px;
+	height: 15px;
+}
+.foot a{
+	margin: 0 5px;
+}
+.avatar img{
+	height: 40px;
+	width: 40px;
+}
+.foot{
+	display: grid;
+	margin-top: 20px;
+	grid-template-columns: 2fr 1fr;
+}
+.foot-icons{
+	display: flex;
+	align-items: center;
+}
+div[class^=icon]{
+	width: 60px;
+}
+.foot .foot-icons .icon-justify{
+	width: 40px;
+}
+.avatar{
+     justify-self: flex-end;
+}

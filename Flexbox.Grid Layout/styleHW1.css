@@ -1,0 +1,29 @@
+body{
+  background: #43decc;
+}
+.grid{
+  display: grid;
+  width: 70vw;
+  height: auto;
+  margin: 0 auto;
+  grid-gap: 2vw;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: sans-serif;
+}
+.grid [class^=column]{
+
+  background: #43decc;
+}
+div[class^=iteam]{
+  margin: 2vw 0;
+  background: #fff;
+}
+img{
+  width: 100%;
+}
+p{
+  margin: 0;
+}
+.text{
+  padding: 0 2vw 2vw 2vw;
+}

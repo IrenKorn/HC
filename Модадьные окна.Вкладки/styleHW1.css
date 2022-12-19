@@ -1,0 +1,43 @@
+body{
+	background: black;
+	margin: 0px;
+	font-family: sans-serif;
+}
+.fon{
+	background: white;
+	opacity: 0.5;
+	box-sizing: border-box;
+	padding: 30px;
+	position: relative;
+}
+.window{
+	background: white;
+	width: 30vw;
+	height: 16vw;
+	position: fixed;
+	z-index: 1;
+	top: 30%;
+	left: 33vw;
+	border-radius: 5%;
+	padding: 3vw 3vw;
+}
+.windowHead{
+	padding-bottom: 2vw;
+	border-bottom: 2px solid lightgrey;
+	font-size: 1.3vw;
+}
+.windowHead:after{
+	content: 'X';
+	font-weight: bold;
+	position: absolute;
+	top: 2.5vw;
+	right: 4vw;
+	font-size: 1.3vw;
+}
+.windowContent{
+	text-align: justify;
+	padding-top: 1.5vw;
+	line-height: 1.5;
+	font-size: 1.1vw;
+}
+
